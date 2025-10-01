@@ -9,18 +9,38 @@ body{
     font-weight: 100;
     font-family: 
 }
+
 h2{
     background-color: rgb(0, 0, 0);
 }
 .amarillo{
     background-color: rgba(255, 243, 138, 0.795);
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+    width: 700px;
+    display:inline-block
+
 }
 .lola{
     background-color: bisque;
+    display: block;
+
 }
 h1{
    font-family: "Oswald", sans-serif;
 }
 h2{
     font-family: "Oswald", sans-serif; 
+}
+.hola {
+    margin-right: 80px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+
+p{
+    font-size: 2em;
 }
