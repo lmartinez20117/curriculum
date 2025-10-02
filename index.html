@@ -3,6 +3,7 @@
 <head>
     <title>Curriculum</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
@@ -11,10 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-    <img src="img/Pollo-con-huevo.webp" width="200">
+    <img id="foto" src="img/Pollo-con-huevo.webp" width="200">
     <section class="amarillo"> 
         <h1 class="lola">DADES PERSONALS</h1>
-        <p>Nom: Lola Martínez</p>
+        <p id="nom">Nom: Lola Martínez</p>
         <p>Data de neixament: 16/12/2009</p>
         <p>Correu electrònic: lmartinez20117@iesjoanramis.org</p>
         <p>Telèfon: 648 160 912</p>
@@ -35,5 +36,13 @@
     </section>
 
     <div></div>
+    <nav>
+        <button onclick="canviNom()">CANVI DE NOM</button>
+        <button onclick="canvifoto()">TRANSFORMAR EN SUPERGUERRER</button>
+        <button onclick="">VIATJAR A MALIBU</button>
+        <button onclick="">APRENDRE IDIOMES</button>
+        <button onclick="harryPotter()">TORNAR-SE INVISIBLE</button>
+        <button onclick="">AFEGIR INFORMACIÓ</button>
+    </nav>
 </body>
 </html>
