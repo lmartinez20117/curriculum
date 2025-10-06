@@ -26,7 +26,12 @@ function afegirInfo(){
     element.innerHTML = prompt("QUE QUIERES AÑADIR?")
     llista.appendChildId(element)
 }
-function hacerfotogrande(){
-    let foto = document.getElemenyById("foto")
-    width= "3000"
+function fotopequeña(){
+    document.getElementById("foto").style = "width: 20px;"
+
+}
+function canvicolor(){
+    let body = document.getElementsByTagName("body")[0]
+    let color= prompt("color:  rgba(155, 207, 241, 1); rgba(243, 197, 96, 1);rgba(252, 117, 196, 1);")
+    body.style = "background-color:"+color +" !important"
 }
