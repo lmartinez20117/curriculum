@@ -1,8 +1,8 @@
 body{
-    background-color: lightpink;
-    background-image: url(https://i.pinimg.com/474x/bb/5e/03/bb5e03cec94692fd383843d37eeccf77.jpg);
+    background-color: rgb(255, 187, 198);
+   /* background-image: url(https://i.pinimg.com/474x/bb/5e/03/bb5e03cec94692fd383843d37eeccf77.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 1em;
